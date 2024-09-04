@@ -1,0 +1,41 @@
+
+Start
+
+Display title "Miles   Kilometers"
+
+For i from 1 to 10 do:
+	miles = i
+	kilometers = miles * 1.609
+	Display miles
+	Display spacing as tab
+	Display kilometers
+
+End
+
+
+---------------------------------------
+
+
+
+import java.util.*;
+
+public class ConvertMilesToKm {
+  
+    public static void main(String[] args) {
+        // Displays title to user
+        System.out.println("Miles\tKilometers\n");
+
+        // Calculates conversion for miles 1 through 10
+        for (int i = 1; i <= 10; i++) {
+            double miles = i;
+      // Formula for conversion
+            double kilometers = miles * 1.609;
+
+            // Displays the conversion to the user
+            System.out.print(i);
+            // Adds spacing to dispay
+            System.out.print("\t");
+            System.out.println(kilometers);
+        }
+    }
+}
