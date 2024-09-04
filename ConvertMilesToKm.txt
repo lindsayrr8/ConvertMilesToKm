@@ -1,22 +1,4 @@
 
-Start
-
-Display title "Miles   Kilometers"
-
-For i from 1 to 10 do:
-	miles = i
-	kilometers = miles * 1.609
-	Display miles
-	Display spacing as tab
-	Display kilometers
-
-End
-
-
----------------------------------------
-
-
-
 import java.util.*;
 
 public class ConvertMilesToKm {
